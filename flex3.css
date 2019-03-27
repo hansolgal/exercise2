@@ -1,0 +1,36 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    background-color: #27335d;
+    font-size: 1.2vw;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0px solid #336699;
+    padding: 10px;
+    color: #ffff;
+}
+
+.container div{
+    //the child
+    width: 70%
+    height: 70%;
+    padding: 50px;
+    margin: 30px;
+    border: 5px solid #CC2233;
+    flex: 0 1 10em;
+    // item property flex: flex-grow flex-shrink flex-basis;
+}
+
+.boxen{
+    display: flex;
+    flex-direction: column;
+}
+
